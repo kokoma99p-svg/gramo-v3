@@ -1,22 +1,20 @@
 {
-  "name": "gramo-siteweb-vercel",
+  "name": "gramo-siteweb",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "vercel-build": "npm run build",
-    "hash-admin-password": "node scripts/hash-admin-password.js"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.49.4",
-    "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "resend": "^4.2.0"
+    "@supabase/supabase-js": "^2.45.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "@vitejs/plugin-react": "^4.3.0"
+  }
 }
